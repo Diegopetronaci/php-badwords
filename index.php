@@ -21,6 +21,6 @@
         <title>Document</title>
     </head>
     <body>
-        <h1> Benvenuto <?php echo $name . $spazio . $lastname ?> </h1>
+        <h1> Benvenuto <?php echo $name . $spazio . $lastname . $spazio ?>, il tuo nome è lungo <?php echo strlen($name) ?> lettere  </h1>
     </body>
 </html>
